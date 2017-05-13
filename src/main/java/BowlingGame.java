@@ -1,7 +1,7 @@
 public class BowlingGame {
 
     public int getBowlingScore(String bowlingCode) {
-        s = bowlingCode.replace("|","");
+        String s = bowlingCode.replace("|","");
 		s = bowlingCode.replace("-","0");
 		char[] begin = s.toCharArray();
 		int ans = 0;
